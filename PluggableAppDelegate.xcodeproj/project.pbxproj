@@ -12,6 +12,17 @@
 		8B6217FC20786EDE0000C26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6217FA20786EDE0000C26B /* Main.storyboard */; };
 		8B6217FE20786EDF0000C26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6217FD20786EDF0000C26B /* Assets.xcassets */; };
 		8B62180120786EDF0000C26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6217FF20786EDF0000C26B /* LaunchScreen.storyboard */; };
+		8B855239207912EB003D13E8 /* PluggableApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B855238207912EB003D13E8 /* PluggableApplicationDelegate.swift */; };
+		8B85523D207913CD003D13E8 /* LoggerApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85523C207913CD003D13E8 /* LoggerApplicationService.swift */; };
+		8B85523F207913DA003D13E8 /* AnalyticsApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85523E207913DA003D13E8 /* AnalyticsApplicationService.swift */; };
+		8B855241207913E7003D13E8 /* BootApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B855240207913E7003D13E8 /* BootApplicationService.swift */; };
+		8B855243207913F4003D13E8 /* ShortcutApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B855242207913F4003D13E8 /* ShortcutApplicationService.swift */; };
+		8B855245207913FF003D13E8 /* NotificationApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B855244207913FF003D13E8 /* NotificationApplicationService.swift */; };
+		8B8552472079140D003D13E8 /* ThemeApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8552462079140D003D13E8 /* ThemeApplicationService.swift */; };
+		8B8552492079142D003D13E8 /* DeepLinkApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8552482079142D003D13E8 /* DeepLinkApplicationService.swift */; };
+		8B85524B2079153F003D13E8 /* ErrorApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85524A2079153F003D13E8 /* ErrorApplicationService.swift */; };
+		8B85524D20792AD8003D13E8 /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85524C20792AD8003D13E8 /* PluggableController.swift */; };
+		8B85525020792B3B003D13E8 /* ChatControllerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85524F20792B3B003D13E8 /* ChatControllerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		8B6217FD20786EDF0000C26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B62180020786EDF0000C26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B62180220786EDF0000C26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B855238207912EB003D13E8 /* PluggableApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluggableApplicationDelegate.swift; sourceTree = "<group>"; };
+		8B85523C207913CD003D13E8 /* LoggerApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerApplicationService.swift; sourceTree = "<group>"; };
+		8B85523E207913DA003D13E8 /* AnalyticsApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsApplicationService.swift; sourceTree = "<group>"; };
+		8B855240207913E7003D13E8 /* BootApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootApplicationService.swift; sourceTree = "<group>"; };
+		8B855242207913F4003D13E8 /* ShortcutApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutApplicationService.swift; sourceTree = "<group>"; };
+		8B855244207913FF003D13E8 /* NotificationApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationApplicationService.swift; sourceTree = "<group>"; };
+		8B8552462079140D003D13E8 /* ThemeApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeApplicationService.swift; sourceTree = "<group>"; };
+		8B8552482079142D003D13E8 /* DeepLinkApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkApplicationService.swift; sourceTree = "<group>"; };
+		8B85524A2079153F003D13E8 /* ErrorApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorApplicationService.swift; sourceTree = "<group>"; };
+		8B85524C20792AD8003D13E8 /* PluggableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluggableController.swift; sourceTree = "<group>"; };
+		8B85524F20792B3B003D13E8 /* ChatControllerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatControllerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,9 @@
 		8B6217F520786EDE0000C26B /* PluggableAppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				8B85523B20791322003D13E8 /* Sources */,
+				8B855237207912DA003D13E8 /* AppServices */,
+				8B85524E20792B28003D13E8 /* ControllerServices */,
 				8B6217F620786EDE0000C26B /* AppDelegate.swift */,
 				8B6217F820786EDE0000C26B /* ViewController.swift */,
 				8B6217FA20786EDE0000C26B /* Main.storyboard */,
@@ -62,6 +87,38 @@
 				8B62180220786EDF0000C26B /* Info.plist */,
 			);
 			path = PluggableAppDelegate;
+			sourceTree = "<group>";
+		};
+		8B855237207912DA003D13E8 /* AppServices */ = {
+			isa = PBXGroup;
+			children = (
+				8B85524A2079153F003D13E8 /* ErrorApplicationService.swift */,
+				8B85523C207913CD003D13E8 /* LoggerApplicationService.swift */,
+				8B85523E207913DA003D13E8 /* AnalyticsApplicationService.swift */,
+				8B855240207913E7003D13E8 /* BootApplicationService.swift */,
+				8B855242207913F4003D13E8 /* ShortcutApplicationService.swift */,
+				8B855244207913FF003D13E8 /* NotificationApplicationService.swift */,
+				8B8552462079140D003D13E8 /* ThemeApplicationService.swift */,
+				8B8552482079142D003D13E8 /* DeepLinkApplicationService.swift */,
+			);
+			path = AppServices;
+			sourceTree = "<group>";
+		};
+		8B85523B20791322003D13E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B855238207912EB003D13E8 /* PluggableApplicationDelegate.swift */,
+				8B85524C20792AD8003D13E8 /* PluggableController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8B85524E20792B28003D13E8 /* ControllerServices */ = {
+			isa = PBXGroup;
+			children = (
+				8B85524F20792B3B003D13E8 /* ChatControllerService.swift */,
+			);
+			path = ControllerServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8552472079140D003D13E8 /* ThemeApplicationService.swift in Sources */,
+				8B85525020792B3B003D13E8 /* ChatControllerService.swift in Sources */,
 				8B6217F920786EDE0000C26B /* ViewController.swift in Sources */,
+				8B855239207912EB003D13E8 /* PluggableApplicationDelegate.swift in Sources */,
+				8B855241207913E7003D13E8 /* BootApplicationService.swift in Sources */,
+				8B855245207913FF003D13E8 /* NotificationApplicationService.swift in Sources */,
+				8B85524B2079153F003D13E8 /* ErrorApplicationService.swift in Sources */,
+				8B85523D207913CD003D13E8 /* LoggerApplicationService.swift in Sources */,
+				8B85524D20792AD8003D13E8 /* PluggableController.swift in Sources */,
+				8B8552492079142D003D13E8 /* DeepLinkApplicationService.swift in Sources */,
+				8B85523F207913DA003D13E8 /* AnalyticsApplicationService.swift in Sources */,
 				8B6217F720786EDE0000C26B /* AppDelegate.swift in Sources */,
+				8B855243207913F4003D13E8 /* ShortcutApplicationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +348,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UL3M495G23;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PluggableAppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,6 +357,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.basememara.PluggableAppDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UL3M495G23;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PluggableAppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.basememara.PluggableAppDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
